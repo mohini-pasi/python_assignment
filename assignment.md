@@ -174,7 +174,7 @@ else:
     print("both are equal")
 ```
 
-9.write a program to find factorial of a number
+**9.write a program to find factorial of a number**
 ```python
 n = int(input("ENTER THE NUMBER:"))
 sum=1
