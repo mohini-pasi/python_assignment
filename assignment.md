@@ -21,7 +21,7 @@ evenodd(34)
 evenodd(0)
 ```
 
-2. write a program to find given number is positive or negative
+**#2. write a program to find given number is positive or negative**
 ```python
 number = int(input("ENTER YOUR NUMBER:"))
 
