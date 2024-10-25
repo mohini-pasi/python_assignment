@@ -422,6 +422,242 @@ data2 = default_argument2(a=10,b=20,c=30,d=40)
 print(data2)          #output 101
 ```
 
+**21.write a class which will have 5 attributes(as per your choice) and init function inside that 5 methods (self) init function that take 5 attributes as an input from as instance 5 methods that will return each attributes and built one static methods class**
+```python
+class Person:
+    def __init__(self, name, age, gender, occupation, country):
+        self.name = name
+        self.age = age
+        self.gender = gender
+        self.occupation = occupation
+        self.country = country
+
+    def get_name(self):
+        return self.name
+
+    def get_age(self):
+        return self.age
+
+    def get_gender(self):
+        return self.gender
+
+    def get_occupation(self):
+        return self.occupation
+
+    def get_country(self):
+        return self.country
+
+    @staticmethod
+    def info():
+        return "This is a Person class that stores information about individuals."
+
+# Example usage
+if __name__ == "__main__":
+    # Creating an instance of the Person class
+    person1 = Person("Alice", 30, "Female", "Engineer", "USA")
+
+    # Accessing the attributes through methods
+    print("Name:", person1.get_name())
+    print("Age:", person1.get_age())
+    print("Gender:", person1.get_gender())
+    print("Occupation:", person1.get_occupation())
+    print("Country:", person1.get_country())
+
+    # Calling the static method
+    print(Person.info())
+```
+
+
+**22.Reverse a string**
+Input
+s = "hello"
+Output
+"olleh"
+```python
+a="hello"
+b=a[::-1]
+print(b)
+```
+
+**23.Check if a number is prime**
+Input
+num = 13
+Output
+True  # 13 is a prime number
+```python
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return "not a prime number"
+    return "prime number"
+
+# Example usage:
+n = 13
+print(is_prime(n))
+```
+
+**24.Count the number of vowels in a string**
+Input
+sentence = "hello world"
+Output
+3  # 'e', 'o', 'o' are vowels
+```python
+sentence="hello word"
+a=[]
+for i in sentence:
+    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+        a.append(i)
+print(a)
+
+```
+
+**25.Sum all numbers in a list**
+Input
+numbers = [1, 2, 3, 4]
+utput
+10  # 1+2+3+4
+```python
+number=[1,2,3,4]
+add=0
+for i in number:
+    add=add+i
+print(add)
+```
+
+**26. Find the GCD of two numbers**
+Input
+a = 24
+b = 36
+Output
+12  # GCD of 24 and 36
+```python
+import math
+
+num1=24
+num=36
+gcd=math.gcd(num1,num)
+print(gcd)
+```
+
+**27.Convert Celsius to Fahrenheit**
+Input
+celsius = 25
+Output
+77.0  # Fahrenheit equivalent of 25°C
+```python
+def celsius_to_fahrenheit(celsius):
+    fahrenheit=(celsius*9/5)+32
+    print(f"{celsius}C is equal to {fahrenheit}")
+
+celsius_to_fahrenheit(25)
+```
+
+**28.Calculate the area of a circle given the radius**
+Input
+radius = 5
+Output
+78.54  # Area = πr^2
+```python
+class circle:
+    pi=3.14
+    print(pi)
+    def __init__(self,radius):
+        self.radius=radius
+        print(self.radius*self.radius*self.pi)
+
+data=circle(5)
+print(data)
+```
+
+**29.Generate a list of squares for numbers from 1 to 5**
+Input
+n = 5
+Output
+[1, 4, 9, 16, 25]
+```python
+square=0
+a=[]
+for i in range(1,6):
+    square=i*i
+    a.append(square)
+print(a)
+```
+
+**30.Convert a string to lowercase**
+Input
+s = "HELLO"
+Output
+"hello"
+```python
+s="HELLO"
+print(s.lower())
+```
+
+**31.Find the length of a string**
+Input
+s = "python"
+Output
+6
+```python
+a="python"
+print(len(a))
+```
+
+**32.Check if a year is a leap year**
+Input
+year = 2024
+Output
+True  # 2024 is a leap year
+```python
+year=int(input("enter the year"))
+if year%4==0:
+    print("leap year")
+else:
+    print("not a leap year")
+```
+
+**33.Sort a list of numbers in ascending order**
+Input
+numbers = [5, 2, 9, 1, 5]
+Output
+[1, 2, 5, 5, 9]
+```python
+num=[5,2,9,1,5]
+a=sorted(num)
+print(a)
+```
+
+**34.Find the sum of digits of a number**
+Input
+num = 123
+Output
+6  # 1+2+3
+```python
+def add(num):
+    a_list=[int(digit) for digit in str(num)]
+    sum=0
+    for i in a_list:
+        sum=sum+i
+    print(sum)
+add(123)
+```
+
+**35. Remove duplicates from a list**
+Input
+numbers = [1, 2, 2, 3, 4, 4, 5]
+Output
+[1, 2, 3, 4, 5]
+```python
+num=[1,2,2,3,4,4,5]
+
+a=list(set(num))
+print(a)
+```
+
+
+
 
 
 
