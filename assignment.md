@@ -1,7 +1,7 @@
 #python-assingment(Dcodetech)
 #here are some python question'
 
-1.write a program to find given number is even or odd
+**1.write a program to find given number is even or odd**
 ```python
 number = int(input("enter a number:"))
 if(number % 2 == 0):
@@ -21,7 +21,7 @@ evenodd(34)
 evenodd(0)
 ```
 
-**#2. write a program to find given number is positive or negative**
+**2. write a program to find given number is positive or negative**
 ```python
 number = int(input("ENTER YOUR NUMBER:"))
 
@@ -40,7 +40,7 @@ def positivenegative(num):
 positivenegative(23)
 ```
 
-3.write a program to find a sum of two number
+**3.write a program to find a sum of two number**
 ```python
 a=10
 b=20
@@ -55,7 +55,7 @@ def sum(a,b):
 sum(20,23)
 ```
 
-4.write a program to check given number is palindrome
+**4.write a program to check given number is palindrome**
 ```python
 string=input("enter string")
 if(string==string[::-1]):
@@ -73,7 +73,7 @@ def palindorme(string):
 palindorme("moim")
 ```
 
-5.write a prgram to check given string is palindrome and ignore special character and space
+**5.write a prgram to check given string is palindrome and ignore special character and space**
 ```python
 def palindorme(string):
     a=[]
@@ -92,7 +92,7 @@ def palindorme(string):
 palindorme("moh%%om l")
 ```
 
-6.write a program to check armstrong number
+**6.write a program to check armstrong number**
 ```python
 num=int(input("enter your number"))
 order = len(str(num))
@@ -126,7 +126,7 @@ def armstrong():
 armstrong()
 ```
 
-7.write a program to check given string is anagram or not
+**7.write a program to check given string is anagram or not**
 ```python
 a="silent"
 b="listen"
@@ -157,7 +157,7 @@ def armstrong():
 armstrong()
 ```
 
-8.write a program to find max of two number
+**8.write a program to find max of two number**
 ```python
 number = max(12,34,45,56)
 print(number)
@@ -192,7 +192,7 @@ def factorial(n):
 factorial(5)    
 ```
 
-10.write a program to find fibonacci series
+**10.write a program to find fibonacci series**
 
 a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers.
 The simplest is the series 1, 1, 2, 3, 5, 8, etc.
@@ -209,7 +209,7 @@ FIRST 0 1 IS BY DEFAULT
                             13 + 21 = 34
                                  21 + 34 = 55 
 """
-# Program to display the Fibonacci sequence up to n-th term
+Program to display the Fibonacci sequence up to n-th term
 ```python
 number = int(input("Enter the number? "))
 
@@ -236,7 +236,7 @@ else:
        count += 1
 ```
 
-11.write a program to print diamond pattern
+**11.write a program to print diamond pattern**
 ```python
 h = int(input("please enter diamond's height:"))
 
@@ -246,7 +246,7 @@ for i in range(h-2, -1, -1):
     print(" "*(h-i), "*"*(i*2+1))
 ```
 
-12.write a program for the function that take input as a list and find the even number from the list and return a new list with the even number data
+**12.write a program for the function that take input as a list and find the even number from the list and return a new list with the even number data**
 ```python
 def function(input_list : list)->list:
     even_numbers = []
@@ -257,7 +257,7 @@ def function(input_list : list)->list:
 print(function([12,23,22]))
 ```
 
-13.write a program to take num as a input and print the table from 1 to 10
+**13.write a program to take num as a input and print the table from 1 to 10**
 ```python
 
 def table():
@@ -267,7 +267,7 @@ def table():
 table()
 ```
 
-14.write a program that will take a list as an input and insdie that list convert in key value pair
+**14.write a program that will take a list as an input and insdie that list convert in key value pair**
 ```python
 def list_to_dict(input_list):
 
@@ -282,7 +282,7 @@ output_dict = list_to_dict(input_list)
 print(output_dict)
 ```
 
-15.write a program that will take dict as an input and it will pick only that dict value which is of type string
+**15.write a program that will take dict as an input and it will pick only that dict value which is of type string**
 ```python
 def dict_data(input_dict):
 
@@ -296,7 +296,7 @@ string_dict=dict_data(input_dict)
 print(string_dict)
 ```
 
-16.write a program that taken list of int as input and return the 2nd largest number in the list if list have a single value or no value return none
+**16.write a program that taken list of int as input and return the 2nd largest number in the list if list have a single value or no value return none**
 ```python
 def second_largest(numbers):
     # Check if the list has less than 2 elements
@@ -329,7 +329,7 @@ if __name__ == "__main__":
     print(result)
 ```
 
-17.write a program a function that will take input as an int and return the list of 1st n number fibonacci series(number input)
+**17.write a program a function that will take input as an int and return the list of 1st n number fibonacci series(number input)**
 ```python
 def fibonacci(n):
     fib_sequence = [0, 1]
@@ -340,7 +340,7 @@ data=fibonacci(9)
 print(data)
 ```
 
-18.write a program to find the largest word in the given sentence
+**18.write a program to find the largest word in the given sentence**
 ```python
 def longest_word(sentence):
     words = sentence.split()
@@ -355,7 +355,7 @@ data=longest_word("hi i am mohini")
 print(data)
 ```
 
-19. write a program function that take list of numbers and return the sum of all the even number
+**19. write a program function that take list of numbers and return the sum of all the even number**
 ```python
 def sum(num : list)->list:
     add=0
@@ -367,9 +367,9 @@ def sum(num : list)->list:
 sum(num=[1,2,3,4,5,6])
 ```
 
-20. write a function that accept 5 argument and return sum of all argument(int)
+**20. write a function that accept 5 argument and return sum of all argument(int)**
 
-#positional argument
+**#positional argument**
 ```python
 def positional_arg(a,b,c,d,e):
     sum=a+b+c+d+e
@@ -377,7 +377,7 @@ def positional_arg(a,b,c,d,e):
 data=positional_arg(1,2,3,4,5)
 print(data)      #output 15
 ```
-#keyword argument
+**#keyword argument**
 ```python
 def keyword_argument(a,b,c,d,e):
     sum=a+b+c+d+e
@@ -385,7 +385,7 @@ def keyword_argument(a,b,c,d,e):
 data = keyword_argument(a=1,b=2,c=3,d=4,e=5)
 print(data)       #output 15
 ```
-#arbitrary argument
+**#arbitrary argument**
 ```python
 def arbitrary_agrument(*args):
     sum = 0
@@ -395,7 +395,7 @@ def arbitrary_agrument(*args):
 data=arbitrary_agrument(12,23,34,45,45)
 print(data)          #output 159
 ```
-#keyword arbitrary argument
+**#keyword arbitrary argument**
 ```python
 def keyword_arbitrary_agrument(**kargs):
     sum = 0
@@ -406,7 +406,7 @@ def keyword_arbitrary_agrument(**kargs):
 data=keyword_arbitrary_agrument(a=100,b=200,c=300,d=400,e=500)
 print(data)             #output 1500
 ```
-#default argument
+**#default argument**
 ```python
 def default_argument(a,b,c,d=1,e=1):
     sum=a+b+c+d+e
