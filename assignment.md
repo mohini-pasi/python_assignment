@@ -145,24 +145,7 @@ if (sorted(c) == sorted(d)):
 else:
     print("its not a anagram")
 ```
-with function
-```python
-def armstrong():
 
-   num=int(input("enter your number"))   
-   order = len(str(num))
-   sum = 0
-   temp = num
-   while temp > 0:
-      digit = temp % 10
-      sum += digit ** order
-      temp //= 10
-   if num == sum:
-      print(num,"is an Armstrong number")
-   else:
-      print(num,"is not an Armstrong number")
-armstrong()
-```
 
 **8.write a program to find max of two number**
 ```python
