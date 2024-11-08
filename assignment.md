@@ -57,11 +57,18 @@ sum(20,23)
 
 **4.write a program to check given number is palindrome**
 ```python
-string=input("enter string")
-if(string==string[::-1]):
-    print("the string is palindrome")
+n=int(input("Enter number:"))
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("The number is a palindrome!")
 else:
-    print("the string is not palindrome")
+    print("The number isn't a palindrome!")
+
 ```
 with function
 ```python
