@@ -70,7 +70,7 @@ else:
     print("The number isn't a palindrome!")
 
 ```
-with function
+with string
 ```python
 def palindorme(string):
     if(string==string[::-1]):
