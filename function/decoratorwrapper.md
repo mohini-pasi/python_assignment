@@ -1,4 +1,5 @@
-'''pythondef decorator(func):
+'''python
+def decorator(func):
     def wrapper():
         func()
     return wrapper
