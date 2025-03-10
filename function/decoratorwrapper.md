@@ -9,7 +9,8 @@ def add():
     print("hello")
     return "hello"
 data = decorator(add)
-print(data())'''
+print(data())
+'''
 
 '''python
 def decorator(func):
@@ -24,6 +25,7 @@ def add(name,age):
     return "done"
 
 data=add("mohini",21)
-print(data)'''
+print(data)
+'''
 
 
