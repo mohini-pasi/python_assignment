@@ -22,7 +22,8 @@ def decor(func):
 def num():
     return 10
 
-print(num())```
+print(num())
+```
 
 
 Output:
