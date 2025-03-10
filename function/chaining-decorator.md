@@ -4,6 +4,7 @@ For num() function we are applying 2 decorator functions. Firstly the inner deco
 
 
 # code for testing decorator chaining
+'''python
 def decor1(func):
     def inner():
         x = func()
@@ -21,7 +22,8 @@ def decor(func):
 def num():
     return 10
 
-print(num())
+print(num())'''
+
 Output:
 
 400
