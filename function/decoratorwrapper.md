@@ -1,4 +1,4 @@
-'''python
+
 def decorator(func):
     def wrapper():
         func()
@@ -10,9 +10,15 @@ def add():
     return "hello"
 data = decorator(add)
 print(data())
-'''
 
-'''python
+
+
+
+
+
+
+
+
 def decorator(func):
     def wrapper(*args,**kw):
         result=func(*args,**kw)
@@ -26,6 +32,6 @@ def add(name,age):
 
 data=add("mohini",21)
 print(data)
-'''
+
 
 
