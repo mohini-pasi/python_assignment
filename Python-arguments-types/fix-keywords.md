@@ -1,9 +1,9 @@
-
+```python
 def data(a,b/,b):
   return a+b
 print(data(1,3,4,b=2)
 
-
+```
 a=1,b=2
 1+2=3
 output
