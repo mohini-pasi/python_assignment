@@ -1,3 +1,4 @@
+#example 1
 
 def decorator(func):
     def wrapper():
@@ -11,13 +12,7 @@ def add():
 data = decorator(add)
 print(data())
 
-
-
-
-
-
-
-
+#example 2
 
 def decorator(func):
     def wrapper(*args,**kw):
