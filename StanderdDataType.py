@@ -1,0 +1,26 @@
+#STANDER DATA TYPE
+'''
+NUMBERIC TYPES : INT, FLOAT, COMPLEX.
+SEQUENCE TYPES : LIST, TUPLE, RANGE, STR # IT USE LOOP
+MAPPING TYPES  : DICT
+SET TYPES      : SET, FROZENSET  # IT IS IMMUTABLE UNORDER COLLECT OF UNIQUE ITEM    
+BOOLEAN TYPES  : BOOL, TRUE, False.
+BINARY TYPES   : BYTES, BYTEARRAY, MEMORYVIEW
+NONE TYPES     : NONE TYPE.
+'''
+
+#GETTING THE DATATYPE
+#WE USE TYPE() KEYWORD
+
+a=10
+b=1.3
+c="a"
+d=[a,b,c]
+e=(1,2,3)
+f=1j
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
