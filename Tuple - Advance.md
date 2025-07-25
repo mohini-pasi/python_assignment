@@ -11,9 +11,9 @@ A tuple is an immutable sequence type in Python. Unlike lists, tuples cannot be 
 ```python
 my_tuple = (1, 2, 3, "a", "b")
 ```
-```python
+
 You can also create a tuple without parentheses:
-```
+
 ```python
 my_tuple = 1, 2, 3, "a", "b"
 ```
